@@ -1,0 +1,15 @@
+tensorflow
+torch
+scikit-learn
+pandas
+nltk
+spacy
+transformers
+datasets
+faiss-cpu
+langchain
+sentence-transformers
+flask  # Optional for web app
+streamlit  # Optional for web app
+matplotlib
+seaborn
