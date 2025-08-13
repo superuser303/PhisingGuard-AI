@@ -1,15 +1,14 @@
-tensorflow
-torch
+datasets 
+transformers 
+torch 
 scikit-learn
-pandas
-nltk
-spacy
-transformers
-datasets
-faiss-cpu
-langchain
+pandas 
+nltk 
+spacy 
+faiss-cpu 
+langchain 
 sentence-transformers
-flask  # Optional for web app
-streamlit  # Optional for web app
-matplotlib
-seaborn
+streamlit 
+matplotlib 
+seaborn 
+accelerate
