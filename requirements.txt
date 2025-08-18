@@ -11,4 +11,4 @@ sentence-transformers
 streamlit 
 matplotlib 
 seaborn 
-accelerate
+accelerate                                          
