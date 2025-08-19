@@ -17,4 +17,9 @@ def preprocess_data( save_path='../data/processed/')
     
     df['Email Text'] = df['Email Text'].apply(clean_text)
     train_df, test_df = train_test_split(df, test_size=0.2, random_state=42, stratify=df['Label'])
-    train_df.to_csv(sw)
+    train_df.to_csv(f'{save_path}train.csv, index=False)
+    test_df.to_csv(f'{save_path}test.csv, index=False)
+    print("Data processing and saved.")
+
+if__name__ == "__main__":
+    preprocess_data() 
