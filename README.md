@@ -14,9 +14,6 @@ Detects phishing emails with ML/DL. Built with Hugging Face, Transformers.
 - Evaluate: Run `notebooks/03_evaluation.ipynb`
 - Predict: `python scripts/predict.py`
 
-## Results
-- Accuracy: ~95% (see results/metrics.txt)
-
 ## Demo
 Run `streamlit run app.py`
 
